@@ -15,4 +15,4 @@ Set website's `default` script policy to allow modifying script node text conten
 www.youtube.com##+js(set-trusted-types)
 ```
 
-10. Click `✓ Apply changes` > Open new tab and test again.
+7. Click `✓ Apply changes` > Open new tab and test again.
