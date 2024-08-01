@@ -9,10 +9,11 @@ Set website's `default` script policy to allow modifying script node text conten
 3. Find `userResourcesLocation` line
 4. Replace `unset` to https://cdn.jsdelivr.net/gh/stephenhawk8054/uBO-Scriptlets@latest/trusted_types.js
 5. Click on `Apply changes` button and go back to "Settings" pane at step 1
-6. Add the filter(s) in ["My filters" pane](https://github.com/gorhill/uBlock/wiki/Dashboard:-My-filters). For example:
+6. Go to ["Filter lists" pane](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) and click on the 🕒 "clock" icon at the end of `uBlock filters – Quick fixes` list
+7. Add the filter(s) in ["My filters" pane](https://github.com/gorhill/uBlock/wiki/Dashboard:-My-filters). For example:
 
 ```adb
 www.youtube.com##+js(set-trusted-types)
 ```
 
-7. Click `✓ Apply changes` > Open new tab and test again.
+8. Click `✓ Apply changes` > Open new tab and test again.
